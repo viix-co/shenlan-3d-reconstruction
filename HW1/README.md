@@ -136,18 +136,26 @@ if (static_cast<float>(nn_result.dist_1st_best)
   <img src="Louvre2.jpg" width="300"/>
 </p>
 
-![matching_featureset_louvre_lowe_ratio](matching_featureset_louvre_no_lowe_ratio.png)
+<p align="center">
+  <img src="matching_featureset_louvre_no_lowe_ratio.png" />
+</p>
 
-![matching_featureset_louvre_no_lowe_ratio](matching_featureset_louvre_lowe_ratio.png)
+<p align="center">
+  <img src="matching_featureset_louvre_lowe_ratio.png" />
+</p>
 
 <p float="left" align="center">
   <img src="tower1.jpg" width="300"/>
   <img src="tower2.jpg" width="300"/>
 </p>
 
-![matching_featureset_tower_no_lowe_ratio](matching_featureset_tower_no_lowe_ratio.png)
+<p align="center">
+  <img src="matching_featureset_tower_no_lowe_ratio.png" />
+</p>
 
-![matching_featureset_tower_lowe_ratio](matching_featureset_tower_lowe_ratio.png)
+<p align="center">
+  <img src="matching_featureset_tower_lowe_ratio.png" />
+</p>
 
 ## Task 1-4
 
