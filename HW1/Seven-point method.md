@@ -15,17 +15,17 @@ $V$矩阵的最后两个column是$A$矩阵右零空间的basis，即$A$矩阵乘
 
 证明如下：
 
-$A(V_{*,8}+\lambda V_{*,9}) = USV^T(V_{*,8}+\lambda V_{*,9})$
+$A(V_{\ast,8}+\lambda V_{\ast,9}) = USV^T(V_{\ast,8}+\lambda V_{\ast,9})$
 
 因为$V$是正交矩阵（旋转矩阵乘上自身的转置矩阵可以得到I，所以旋转矩阵为正交矩阵），所以$V_i \cdot V_j = 0$ if $i \neq j$，$V_i \cdot V_j = 1$ if $i = j$。
 
-因此$V^TV_{*,8} = (0,0,0,0,0,0,0,1,0)^T$，$V^TV_{*,9} = (0,0,0,0,0,0,0,0,1)^T$。
+因此$V^TV_{\ast,8} = (0,0,0,0,0,0,0,1,0)^T$，$V^TV_{\ast,9} = (0,0,0,0,0,0,0,0,1)^T$。
 
-又因为$S$对角矩阵的最后两个column全为0，所以$SV^TV_{*,8} = S_{8,*} \cdot (0,0,0,0,0,0,0,1,0)^T = 0$。同理，$SV^TV_{*,9} = 0$。
+又因为$S$对角矩阵的最后两个column全为0，所以$SV^TV_{\ast,8} = S_{8,\ast} \cdot (0,0,0,0,0,0,0,1,0)^T = 0$。同理，$SV^TV_{\ast,9} = 0$。
 
-因此$A(V_{*,8}+\lambda V_{*,9}) = USV^T(V_{*,8}+\lambda V_{*,9}) = USV^TV_{*,8}+\lambda USV^TV_{*,9} = U*0 + \lambda U * 0 = 0$。
+因此$A(V_{\ast,8}+\lambda V_{\ast,9}) = USV^T(V_{\ast,8}+\lambda V_{\ast,9}) = USV^TV_{\ast,8}+\lambda USV^TV_{\ast,9} = U * 0 + \lambda U * 0 = 0$。
 
-将$V_{*,8}+\lambda V_{*,9}$ reshape 成3*3，即为基础矩阵$F$。
+将$V_{\ast,8}+\lambda V_{\ast,9}$ reshape 成3*3，即为基础矩阵$F$。
 
 又因为$F$的rank为2，所以需限制其判别式为0，这可以透过调整$\lambda$来达成。
 
